@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    background-color: none;
+}
+ul{
+    list-style: none;
+    
+}
+ul a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 16px;
+}
+.navbar-container ul li a{
+    color: hsl(233, 8%, 62%);
+    font-size: 12px;
+}
+.navbar-link{
+    position: relative;
+    transition: color .4s;
+
+}
+.navbar-link:hover{
+    color: green;
+}
+
+p{
+    color: hsl(233, 8%, 62%);
+}
+
+.btn{
+    border: none;
+    padding: 12px 26px;
+    border-radius: 28px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+}
+
+.section-1{
+    display: flex;
+   /*padding-top: 120px;*/
+   background: hsl(0, 0%, 98%);
+
+}.herosec-lh{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-top: 12rem;
+    gap: 28px;
+}
+.herosec-lh h1{
+    color: hsl(233, 26%, 24%);
+    width: 100%;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.herosec-rh .bg-img{
+    width: 100%;
+    position: relative;
+    left: 6rem;
+    top: -12rem;
+}
+
+.herosec-rh .up-img{
+    position: absolute;
+    z-index: 1;
+    width: 39%;
+    top: -3rem;
+    right: 8rem;
+    margin-right: -1rem;
+}
+.section-2{
+    background-color: hsl(220, 16%, 96%);
+}
+.second-lh{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 9rem;
+    gap: 20px;
+}
+.card-container{
+    display: flex;
+    position: relative;
+    left: 9rem;
+    margin-right: 15rem;
+    margin-top: 40px;
+}
+.ci{
+    width: 50px;
+}
