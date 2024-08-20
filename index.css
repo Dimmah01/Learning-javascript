@@ -15,6 +15,7 @@ ul a{
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
+    background: hsl(0, 0%, 98%);
 }
 
 .navbar{
@@ -38,7 +39,6 @@ body{
 .navbar-link{
     position: relative;
     transition: color .4s;
-
 }
 .navbar-link:hover{
     color: green;
@@ -46,6 +46,8 @@ body{
 
 p{
     color: hsl(233, 8%, 62%);
+    font-size: 13px;
+    
 }
 
 .btn{
@@ -55,7 +57,6 @@ p{
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     color: white;
 }
-
 .section-1{
     display: flex;
    /*padding-top: 120px;*/
@@ -76,10 +77,13 @@ p{
 }
 
 .herosec-rh .bg-img{
-    width: 100%;
+    /* width: 100%; */
     position: relative;
-    left: 6rem;
-    top: -12rem;
+    left: 1rem;
+    top: -5.5rem;
+}
+.herosec-rh .bg-img img{
+    width: 120%;
 }
 
 .herosec-rh .up-img{
@@ -87,11 +91,15 @@ p{
     z-index: 1;
     width: 39%;
     top: -3rem;
-    right: 8rem;
+    right: 2rem;
     margin-right: -1rem;
+}
+.herosec-rh .up-img img{
+    width: 110%;
 }
 .section-2{
     background-color: hsl(220, 16%, 96%);
+    margin-top: -8rem;
 }
 .second-lh{
     display: flex;
@@ -106,7 +114,123 @@ p{
     left: 9rem;
     margin-right: 15rem;
     margin-top: 40px;
+    gap: 60px;
 }
 .ci{
-    width: 50px;
+    width: 55px;
+    margin-bottom: 1.5rem;
+}
+h3{
+    color: hsl(233, 26%, 24%);
+    font-weight: 100;
+}
+h2{
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+    font-size: 32px;
+}
+.second-lh h2{
+    margin-top: 4.5rem;
+}
+.second-lh p{
+    font-size: 15px;
+    width: 45%;
+}
+.card-container h3{
+    margin-bottom: 1.5rem;
+}
+.card-container p{
+    margin-bottom: 4.5rem;
+}
+
+.section-3{
+    background-color: hsl(0, 0%, 98%);
+    
+}
+.l-article{
+    margin-left: 9rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+.container-article{
+    display: flex;
+    position: relative;
+    left: 9rem;
+    width: 100%;
+    gap: 26px;
+}
+.article-1 img{
+    width: 230px;
+    height: 190px;
+    border-radius: 6px 6px 0 0;
+}
+.article-1{
+    background: white;
+    width: 230px;
+    border-radius: 6px 6px 0 0;
+}
+.name p{
+    font-size: 8px;
+}
+.name{
+    margin-left: 1.1rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.6rem;
+}
+.article-title p{
+    font-size: 12px;
+    font-weight: 520;
+    color: hsl(233, 26%, 24%);
+    width: 60%;
+    margin-left: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.article-content p{
+    font-size: 10px;
+    width: 80%;
+    margin-left: 1.1rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    background: hsl(233, 26%, 24%);
+    height: 30vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+    
+}
+.footer-logo img{
+    fill: hsl(0, 0%, 100%);
+    filter: invert(100%);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.sec-2{
+    display: flex;
+    position: relative;
+    right: 8rem;
+    gap: 8rem;
+    color: hsl(0, 0%, 98%);
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 3rem;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+}
+.sec-3 .btn{
+    margin-top: 3rem;
+}
+.rights{
+    margin-left: -4rem;
+    margin-top: 1.5rem;
+    font-size: 8px;
 }
